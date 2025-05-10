@@ -7,4 +7,4 @@ const res = sum(1, 2);
 
 console.log(res);
 
-console.log('11111');
+console.log('111111');
