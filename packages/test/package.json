@@ -19,7 +19,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenghanxiao/zhx-cli.git"
+    "url": "git+https://github.com/zenghanxiao/zhx-cli.git",
+    "directory": "pakcages/test"
   },
   "scripts": {
     "test": "node ./__tests__/test.test.js"
