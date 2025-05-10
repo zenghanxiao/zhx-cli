@@ -1,0 +1,30 @@
+{
+  "name": "@zhx-cli/core",
+  "version": "0.0.0",
+  "description": "zhx-cli core",
+  "author": "zenghanxiao <zengxiao505685546@qq.com>",
+  "homepage": "http://lib/index.js",
+  "license": "ISC",
+  "bin": {
+    "zhx-cli": "bin/cli.js"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@zhx-cli/utils": "^0.0.0"
+  }
+}
