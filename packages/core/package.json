@@ -23,6 +23,11 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:zenghanxiao/zhx-cli.git",
+    "directory": "packages/core"
+  },
   "type": "module",
   "dependencies": {
     "@zhx-cli/utils": "^0.0.3"
