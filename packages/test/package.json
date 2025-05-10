@@ -1,11 +1,11 @@
 {
-  "name": "test",
+  "name": "@zhx-cli/test",
   "version": "0.0.9",
   "description": "test",
   "author": "zenghanxiao <zengxiao505685546@qq.com>",
   "homepage": "https://github.com/zenghanxiao/zhx-cli#readme",
   "license": "ISC",
-  "main": "lib/test.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,8 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenghanxiao/zhx-cli.git",
-    "directory": "pakcages/test"
+    "url": "git+https://github.com/zenghanxiao/zhx-cli.git"
   },
   "scripts": {
     "test": "node ./__tests__/test.test.js"
@@ -28,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/zenghanxiao/zhx-cli/issues"
   },
-  "gitHead": "32341923c3fba608a631754c8afda21ca5159626"
+  "gitHead": "9a412a87e449b0c4a68dd76781fcb439fbb44522"
 }

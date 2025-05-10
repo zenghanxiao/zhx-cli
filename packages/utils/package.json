@@ -25,5 +25,5 @@
     "test": "node ./__tests__/utils.test.js"
   },
   "type": "module",
-  "gitHead": "32341923c3fba608a631754c8afda21ca5159626"
+  "gitHead": "9a412a87e449b0c4a68dd76781fcb439fbb44522"
 }
