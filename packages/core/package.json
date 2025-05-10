@@ -1,6 +1,6 @@
 {
   "name": "@zhx-cli/core",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "zhx-cli core",
   "author": "zenghanxiao <zengxiao505685546@qq.com>",
   "homepage": "http://lib/index.js",
@@ -29,7 +29,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@zhx-cli/utils": "^0.0.8"
+    "@zhx-cli/utils": "^0.0.9"
   },
   "gitHead": "32341923c3fba608a631754c8afda21ca5159626"
 }
