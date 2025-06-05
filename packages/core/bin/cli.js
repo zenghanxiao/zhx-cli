@@ -1,10 +1,13 @@
 #!/usr/bin/env node
-import { sum } from '@zhx-cli/utils';
+import importLocal from 'import-local';
+import { filename } from 'dirname-filename-esm';
+import { log } from '@zhx-cli/utils';
+import entry from '../lib/index.js';
 
-console.log('hello zhx-cli core');
+const __filename = filename(import.meta);
 
-const res = sum(1, 2);
-
-console.log(res);
-
-console.log('1111112');
+if (importLocal(__filename)) {
+  log.info('cli', '使用本地 zhx-cli 版本');
+} else {
+  entry(process.argv.slice(2));
+}

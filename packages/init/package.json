@@ -1,13 +1,10 @@
 {
-  "name": "@zhx-cli/core",
+  "name": "@zhx-cli/init",
   "version": "0.0.11",
-  "description": "zhx-cli core",
+  "description": "zhx-cli init",
   "author": "zenghanxiao <zengxiao505685546@qq.com>",
   "homepage": "http://lib/index.js",
   "license": "ISC",
-  "bin": {
-    "zhx-cli": "bin/cli.js"
-  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -20,26 +17,19 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "scripts": {
-    "test": "node ./__tests__/core.test.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zenghanxiao/zhx-cli.git"
   },
+  "scripts": {
+    "test": "node ./__tests__/init.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zenghanxiao/zhx-cli/issues"
+  },
   "type": "module",
   "dependencies": {
-    "@zhx-cli/utils": "^0.0.11",
-    "chalk": "^5.4.1",
-    "commander": "^13.1.0",
-    "dirname-filename-esm": "^1.1.2",
-    "dotenv": "^16.5.0",
     "fs-extra": "^11.3.0",
-    "import-local": "^3.2.0",
-    "path-exists": "^5.0.0",
-    "root-check": "^2.0.0",
-    "semver": "^7.7.1",
-    "user-home": "^2.0.0"
-  },
-  "gitHead": "9a412a87e449b0c4a68dd76781fcb439fbb44522"
+    "ora": "^8.2.0"
+  }
 }
